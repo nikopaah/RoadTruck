@@ -8,12 +8,21 @@ public class FollowPlayer : MonoBehaviour
     private GameObject player;
 
     [SerializeField]
-    private Vector3 offset = new(0, 5, -7);
+    private Vector3 offset3Person = new(0, 5, -7);
+    private Vector3 offset1Person = new(-0.13f, 1.8f, 1.7f);
+    private Vector3 offset;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        offset = offset3Person;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown("space"))
+        {
+            offset = offset == offset3Person ? offset1Person : offset3Person;
+        }
     }
 
     // Update is called once per frame

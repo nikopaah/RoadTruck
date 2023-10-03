@@ -351,7 +351,10 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+"Assets/Challenge 1/Scripts/FollowPlayerX.cs"
+"Assets/Challenge 1/Scripts/PlayerControllerX.cs"
 "Assets/Scripts/FollowPlayer.cs"
+"Assets/Scripts/MoveVehicle.cs"
 "Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 
